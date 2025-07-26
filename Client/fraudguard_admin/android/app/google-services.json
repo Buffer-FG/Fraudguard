@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1061185380727",
+    "project_id": "fraudgaurd-a2ca4",
+    "storage_bucket": "fraudgaurd-a2ca4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061185380727:android:ffb6947ae49605fb94c172",
+        "android_client_info": {
+          "package_name": "com.fraudguard_admin.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061185380727-aljqiunk5377850vn71vgt0c27l63u7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fraudguard_admin.app",
+            "certificate_hash": "0c6ac7a0d0b1925054fce78c7971bb1f4078ccac"
+          }
+        },
+        {
+          "client_id": "1061185380727-er9bd2t2imkehs32l9dalobhuqqrkd9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMyL0x6bwApZhQVKlW3iUs1E7ISHZ097E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061185380727-er9bd2t2imkehs32l9dalobhuqqrkd9g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1061185380727-po96gr39fuhci51ttm1ndaks0sfqatab.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fraudguardadmin.app.testProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
