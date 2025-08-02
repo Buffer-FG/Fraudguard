@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
+// import '../presentation/splash_screen/splash_screen.dart';
 import '../presentation/screens/onboarding_screen.dart';
 import '../presentation/Authentication/login_screen.dart';
 import '../presentation/Authentication/signup_screen.dart';
 import '../presentation/dashboard_screen/dashboard_screen.dart';
 import '../presentation/user_profile_screen/user_profile_screen.dart';
 import '../presentation/reports_screen/reports_screen.dart';
+import '../presentation/admin_profile_screen/admin_profile_screen.dart';
 import '../presentation/flagged_users_list_screen/flagged_users_list_screen.dart';
-import '../presentation/network_graph_screen/network_graph_screen.dart';
+// import '../presentation/network_graph_screen/network_graph_screen.dart';
 
 class AppRoutes {
   // static const String initial = '/';
+  // static const String splashScreen = '/splash-screen';
   static const String onboardingScreen = '/onboarding-screen';
   static const String loginScreen = '/login-screen';
   static const String signupScreen = '/signup-screen';
@@ -18,17 +21,20 @@ class AppRoutes {
   static const String reportsScreen = '/reports-screen';
   static const String flaggedUsersListScreen = '/flagged-users-list-screen';
   static const String networkGraphScreen = '/network-graph-screen';
+  static const String adminProfileScreen = '/admin-profile-screen';
 
   static Map<String, WidgetBuilder> routes = {
     // initial: (context) => LoginScreen(),
-    onboardingScreen: (context)=> OnboardingScreen(),
+    // splashScreen: (context) => SplashScreen(),
+    onboardingScreen: (context) => OnboardingScreen(),
     loginScreen: (context) => LoginScreen(),
     signupScreen: (context) => SignupScreen(),
     dashboardScreen: (context) => DashboardScreen(),
     userProfileScreen: (context) => UserProfileScreen(),
     reportsScreen: (context) => ReportsScreen(),
     flaggedUsersListScreen: (context) => FlaggedUsersListScreen(),
-    networkGraphScreen: (context) => NetworkGraphScreen(),
+    adminProfileScreen: (context) => AdminProfileScreen(),
+    // networkGraphScreen: (context) => NetworkGraphScreen(),
     
   };
 }
@@ -100,7 +106,7 @@ class AppRoutes {
 //       default:
 //       return MaterialPageRoute(
 //         // Make a screen for undefine
-//         builder: (context) => const OnBordingScreen(),
+//         builder: (context) => const OnBoardingScreen(),
 //       );
 //     }
 //   }

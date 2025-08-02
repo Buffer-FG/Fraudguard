@@ -21,6 +21,7 @@ class _UserProfileScreenState extends State<UserProfileScreen>
   late TabController _tabController;
   bool _isLoading = true;
   Map<String, dynamic>? _userData;
+  int _currentBottomNavIndex = 2; 
 
   // Mock user data
   final Map<String, dynamic> _mockUserData = {
@@ -266,6 +267,7 @@ class _UserProfileScreenState extends State<UserProfileScreen>
               onEscalateCase: _handleEscalateCase,
               onGenerateReport: _handleGenerateReport,
             ),
+            
     );
   }
 
@@ -314,6 +316,93 @@ class _UserProfileScreenState extends State<UserProfileScreen>
         ),
       ],
     );
+  }
+
+  Widget _buildBottomNavigationBar() {
+    return BottomNavigationBar(
+      currentIndex: _currentBottomNavIndex,
+      onTap: (index) {
+        setState(() {
+          _currentBottomNavIndex = index;
+        });
+        _navigateToScreen(index);
+      },
+      type: BottomNavigationBarType.fixed,
+      backgroundColor:
+          AppTheme.lightTheme.bottomNavigationBarTheme.backgroundColor,
+      selectedItemColor:
+          AppTheme.lightTheme.bottomNavigationBarTheme.selectedItemColor,
+      unselectedItemColor:
+          AppTheme.lightTheme.bottomNavigationBarTheme.unselectedItemColor,
+      elevation: AppTheme.lightTheme.bottomNavigationBarTheme.elevation,
+      items: [
+        BottomNavigationBarItem(
+          icon: CustomIconWidget(
+            iconName: 'dashboard',
+            color: _currentBottomNavIndex == 0
+                ? AppTheme
+                    .lightTheme.bottomNavigationBarTheme.selectedItemColor!
+                : AppTheme
+                    .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
+            size: 24,
+          ),
+          label: 'Dashboard',
+        ),
+        BottomNavigationBarItem(
+          icon: CustomIconWidget(
+            iconName: 'flag',
+            color: _currentBottomNavIndex == 1
+                ? AppTheme
+                    .lightTheme.bottomNavigationBarTheme.selectedItemColor!
+                : AppTheme
+                    .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
+            size: 24,
+          ),
+          label: 'Flagged Users',
+        ),
+        BottomNavigationBarItem(
+          icon: CustomIconWidget(
+            iconName: 'assessment',
+            color: _currentBottomNavIndex == 2
+                ? AppTheme
+                    .lightTheme.bottomNavigationBarTheme.selectedItemColor!
+                : AppTheme
+                    .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
+            size: 24,
+          ),
+          label: 'Reports',
+        ),
+        BottomNavigationBarItem(
+          icon: CustomIconWidget(
+            iconName: 'person',
+            color: _currentBottomNavIndex == 3
+                ? AppTheme
+                    .lightTheme.bottomNavigationBarTheme.selectedItemColor!
+                : AppTheme
+                    .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
+            size: 24,
+          ),
+          label: 'Profile',
+        ),
+      ],
+    );
+  }
+
+  void _navigateToScreen(int index) {
+    switch (index) {
+      case 0:
+        Navigator.pushReplacementNamed(context, '/dashboard-screen');
+        break;
+      case 1:
+        // Navigator.pushReplacementNamed(context, '/flagged-users-list-screen');
+        break;
+      case 2:
+        Navigator.pushNamed(context, '/reports-screen');
+        break;
+      case 3:
+        Navigator.pushReplacementNamed(context, '/admin-profile-screen');
+        break;
+    }
   }
 
   void _handleMenuAction(String action) {

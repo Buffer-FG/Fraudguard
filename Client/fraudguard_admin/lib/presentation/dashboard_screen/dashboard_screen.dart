@@ -314,10 +314,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
               Navigator.pushNamed(context, '/flagged-users-list-screen');
               break;
             case 2:
-              Navigator.pushNamed(context, '/network-graph-screen');
+              Navigator.pushNamed(context, '/reports-screen');
               break;
             case 3:
-              Navigator.pushNamed(context, '/reports-screen');
+              Navigator.pushNamed(context, '/admin-profile-screen');
               break;
           }
         },
@@ -336,7 +336,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ),
           BottomNavigationBarItem(
             icon: CustomIconWidget(
-              iconName: 'people',
+              iconName: 'flag',
               color: _currentIndex == 1
                   ? AppTheme
                       .lightTheme.bottomNavigationBarTheme.selectedItemColor!
@@ -344,11 +344,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
               size: 24,
             ),
-            label: 'Users',
+            label: 'Flagged Users',
           ),
           BottomNavigationBarItem(
             icon: CustomIconWidget(
-              iconName: 'account_tree',
+              iconName: 'assessment', // Reports icon
               color: _currentIndex == 2
                   ? AppTheme
                       .lightTheme.bottomNavigationBarTheme.selectedItemColor!
@@ -356,11 +356,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
               size: 24,
             ),
-            label: 'Network',
+            label: 'Reports',
           ),
           BottomNavigationBarItem(
             icon: CustomIconWidget(
-              iconName: 'assessment',
+              iconName: 'person', // Admin profile icon
               color: _currentIndex == 3
                   ? AppTheme
                       .lightTheme.bottomNavigationBarTheme.selectedItemColor!
@@ -368,7 +368,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
               size: 24,
             ),
-            label: 'Reports',
+            label: 'Profile',
           ),
         ],
       ),

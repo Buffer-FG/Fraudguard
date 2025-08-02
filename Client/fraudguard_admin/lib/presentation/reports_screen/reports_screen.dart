@@ -237,9 +237,35 @@ class _ReportsScreenState extends State<ReportsScreen> {
           ),
           label: 'Flagged Users',
         ),
+
+        //     BottomNavigationBarItem(
+        //       icon: CustomIconWidget(
+        //         iconName: 'account_tree',
+        //         color: _currentBottomNavIndex == 2
+        //             ? AppTheme
+        //                 .lightTheme.bottomNavigationBarTheme.selectedItemColor!
+        //             : AppTheme
+        //                 .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
+        //         size: 24,
+        //       ),
+        //       label: 'Network Graph',
+        //     ),
+        //     BottomNavigationBarItem(
+        //       icon: CustomIconWidget(
+        //         iconName: 'assessment',
+        //         color: _currentBottomNavIndex == 3
+        //             ? AppTheme
+        //                 .lightTheme.bottomNavigationBarTheme.selectedItemColor!
+        //             : AppTheme
+        //                 .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
+        //         size: 24,
+        //       ),
+        //       label: 'Reports',
+        //     ),
+        //
         BottomNavigationBarItem(
           icon: CustomIconWidget(
-            iconName: 'account_tree',
+            iconName: 'assessment',
             color: _currentBottomNavIndex == 2
                 ? AppTheme
                     .lightTheme.bottomNavigationBarTheme.selectedItemColor!
@@ -247,11 +273,11 @@ class _ReportsScreenState extends State<ReportsScreen> {
                     .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
             size: 24,
           ),
-          label: 'Network Graph',
+          label: 'Reports',
         ),
         BottomNavigationBarItem(
           icon: CustomIconWidget(
-            iconName: 'assessment',
+            iconName: 'person',
             color: _currentBottomNavIndex == 3
                 ? AppTheme
                     .lightTheme.bottomNavigationBarTheme.selectedItemColor!
@@ -259,7 +285,7 @@ class _ReportsScreenState extends State<ReportsScreen> {
                     .lightTheme.bottomNavigationBarTheme.unselectedItemColor!,
             size: 24,
           ),
-          label: 'Reports',
+          label: 'Profile',
         ),
       ],
     );
@@ -274,10 +300,10 @@ class _ReportsScreenState extends State<ReportsScreen> {
         Navigator.pushReplacementNamed(context, '/flagged-users-list-screen');
         break;
       case 2:
-        Navigator.pushReplacementNamed(context, '/network-graph-screen');
+        // Already on reports screen
         break;
       case 3:
-        // Already on reports screen
+        Navigator.pushReplacementNamed(context, '/admin-profile-screen');
         break;
     }
   }
