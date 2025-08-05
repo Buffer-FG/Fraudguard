@@ -8,6 +8,7 @@ import '../presentation/user_profile_screen/user_profile_screen.dart';
 import '../presentation/reports_screen/reports_screen.dart';
 import '../presentation/admin_profile_screen/admin_profile_screen.dart';
 import '../presentation/flagged_users_list_screen/flagged_users_list_screen.dart';
+import '../presentation/user_profile_screen/dashboard_user.dart'; 
 // import '../presentation/network_graph_screen/network_graph_screen.dart';
 
 class AppRoutes {
@@ -22,6 +23,7 @@ class AppRoutes {
   static const String flaggedUsersListScreen = '/flagged-users-list-screen';
   static const String networkGraphScreen = '/network-graph-screen';
   static const String adminProfileScreen = '/admin-profile-screen';
+  static const String dashuserProfileScreen = '/dash-user-profile-screen';
 
   static Map<String, WidgetBuilder> routes = {
     // initial: (context) => LoginScreen(),
@@ -31,11 +33,19 @@ class AppRoutes {
     signupScreen: (context) => SignupScreen(),
     dashboardScreen: (context) => DashboardScreen(),
     userProfileScreen: (context) => UserProfileScreen(),
+    dashuserProfileScreen: (context) => DashUserProfileScreen(),
+    // userProfileScreen: (context) {
+    //   final args =
+    //       ModalRoute.of(context)!.settings.arguments as Map<String, dynamic>?;
+    //   return UserProfileScreen(
+    //     userData: args?['userData'],
+    //     userId: args?['userId'],
+    //   );
+    // },
     reportsScreen: (context) => ReportsScreen(),
     flaggedUsersListScreen: (context) => FlaggedUsersListScreen(),
     adminProfileScreen: (context) => AdminProfileScreen(),
     // networkGraphScreen: (context) => NetworkGraphScreen(),
-    
   };
 }
 

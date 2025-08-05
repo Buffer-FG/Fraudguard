@@ -6,17 +6,17 @@ import '../../../core/app_export.dart';
 class SearchHeaderWidget extends StatefulWidget {
   final TextEditingController searchController;
   final ValueChanged<String> onSearchChanged;
-  final VoidCallback onFilterTap;
-  final List<String> activeFilters;
-  final VoidCallback onClearFilters;
+  // final VoidCallback onFilterTap;
+  // final List<String> activeFilters;
+  // final VoidCallback onClearFilters;
 
   const SearchHeaderWidget({
     Key? key,
     required this.searchController,
     required this.onSearchChanged,
-    required this.onFilterTap,
-    required this.activeFilters,
-    required this.onClearFilters,
+    // required this.onFilterTap,
+    // required this.activeFilters,
+    // required this.onClearFilters,
   }) : super(key: key);
 
   @override
@@ -109,141 +109,141 @@ class _SearchHeaderWidgetState extends State<SearchHeaderWidget> {
                     ),
                   ),
                 ),
-                SizedBox(width: 3.w),
-                Container(
-                  decoration: BoxDecoration(
-                    color: AppTheme.lightTheme.colorScheme.primary,
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Material(
-                    color: Colors.transparent,
-                    child: InkWell(
-                      onTap: widget.onFilterTap,
-                      borderRadius: BorderRadius.circular(12),
-                      child: Container(
-                        padding: EdgeInsets.all(3.w),
-                        child: Stack(
-                          children: [
-                            CustomIconWidget(
-                              iconName: 'tune',
-                              color: AppTheme.lightTheme.colorScheme.onPrimary,
-                              size: 24,
-                            ),
-                            if (widget.activeFilters.isNotEmpty)
-                              Positioned(
-                                right: -2,
-                                top: -2,
-                                child: Container(
-                                  padding: EdgeInsets.all(1.w),
-                                  decoration: BoxDecoration(
-                                    color: AppTheme.warningLight,
-                                    shape: BoxShape.circle,
-                                  ),
-                                  constraints: BoxConstraints(
-                                    minWidth: 5.w,
-                                    minHeight: 5.w,
-                                  ),
-                                  child: Text(
-                                    widget.activeFilters.length.toString(),
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 10.sp,
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                                    textAlign: TextAlign.center,
-                                  ),
-                                ),
-                              ),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
+                // SizedBox(width: 3.w),
+                // Container(
+                //   decoration: BoxDecoration(
+                //     color: AppTheme.lightTheme.colorScheme.primary,
+                //     borderRadius: BorderRadius.circular(12),
+                //   ),
+                //   child: Material(
+                //     color: Colors.transparent,
+                //     child: InkWell(
+                //       onTap: widget.onFilterTap,
+                //       borderRadius: BorderRadius.circular(12),
+                //       child: Container(
+                //         padding: EdgeInsets.all(3.w),
+                //         child: Stack(
+                //           children: [
+                //             CustomIconWidget(
+                //               iconName: 'tune',
+                //               color: AppTheme.lightTheme.colorScheme.onPrimary,
+                //               size: 24,
+                //             ),
+                //             if (widget.activeFilters.isNotEmpty)
+                //               Positioned(
+                //                 right: -2,
+                //                 top: -2,
+                //                 child: Container(
+                //                   padding: EdgeInsets.all(1.w),
+                //                   decoration: BoxDecoration(
+                //                     color: AppTheme.warningLight,
+                //                     shape: BoxShape.circle,
+                //                   ),
+                //                   constraints: BoxConstraints(
+                //                     minWidth: 5.w,
+                //                     minHeight: 5.w,
+                //                   ),
+                //                   child: Text(
+                //                     widget.activeFilters.length.toString(),
+                //                     style: TextStyle(
+                //                       color: Colors.white,
+                //                       fontSize: 10.sp,
+                //                       fontWeight: FontWeight.w600,
+                //                     ),
+                //                     textAlign: TextAlign.center,
+                //                   ),
+                //                 ),
+                //               ),
+                //           ],
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
               ],
             ),
           ),
-          if (widget.activeFilters.isNotEmpty) _buildActiveFilters(),
+          // if (widget.activeFilters.isNotEmpty) _buildActiveFilters(),
           if (_showRecentSearches) _buildRecentSearches(),
         ],
       ),
     );
   }
 
-  Widget _buildActiveFilters() {
-    return Container(
-      padding: EdgeInsets.fromLTRB(4.w, 0, 4.w, 1.h),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Text(
-                'Active Filters (${widget.activeFilters.length})',
-                style: AppTheme.lightTheme.textTheme.bodySmall?.copyWith(
-                  fontWeight: FontWeight.w500,
-                ),
-              ),
-              const Spacer(),
-              TextButton(
-                onPressed: widget.onClearFilters,
-                child: Text(
-                  'Clear All',
-                  style: TextStyle(
-                    color: AppTheme.lightTheme.colorScheme.primary,
-                    fontSize: 12.sp,
-                  ),
-                ),
-              ),
-            ],
-          ),
-          SizedBox(height: 1.h),
-          Wrap(
-            spacing: 2.w,
-            runSpacing: 1.h,
-            children: widget.activeFilters.map((filter) {
-              return Container(
-                padding: EdgeInsets.symmetric(horizontal: 3.w, vertical: 1.h),
-                decoration: BoxDecoration(
-                  color: AppTheme.lightTheme.colorScheme.primary
-                      .withValues(alpha: 0.1),
-                  borderRadius: BorderRadius.circular(20),
-                  border: Border.all(
-                    color: AppTheme.lightTheme.colorScheme.primary
-                        .withValues(alpha: 0.3),
-                  ),
-                ),
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      filter,
-                      style: TextStyle(
-                        color: AppTheme.lightTheme.colorScheme.primary,
-                        fontSize: 12.sp,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                    SizedBox(width: 1.w),
-                    GestureDetector(
-                      onTap: () {
-                        // Remove specific filter
-                      },
-                      child: CustomIconWidget(
-                        iconName: 'close',
-                        color: AppTheme.lightTheme.colorScheme.primary,
-                        size: 16,
-                      ),
-                    ),
-                  ],
-                ),
-              );
-            }).toList(),
-          ),
-        ],
-      ),
-    );
-  }
+  // Widget _buildActiveFilters() {
+  //   return Container(
+  //     padding: EdgeInsets.fromLTRB(4.w, 0, 4.w, 1.h),
+  //     child: Column(
+  //       crossAxisAlignment: CrossAxisAlignment.start,
+  //       children: [
+  //         Row(
+  //           children: [
+  //             Text(
+  //               'Active Filters (${widget.activeFilters.length})',
+  //               style: AppTheme.lightTheme.textTheme.bodySmall?.copyWith(
+  //                 fontWeight: FontWeight.w500,
+  //               ),
+  //             ),
+  //             const Spacer(),
+  //             TextButton(
+  //               onPressed: widget.onClearFilters,
+  //               child: Text(
+  //                 'Clear All',
+  //                 style: TextStyle(
+  //                   color: AppTheme.lightTheme.colorScheme.primary,
+  //                   fontSize: 12.sp,
+  //                 ),
+  //               ),
+  //             ),
+  //           ],
+  //         ),
+  //         SizedBox(height: 1.h),
+  //         Wrap(
+  //           spacing: 2.w,
+  //           runSpacing: 1.h,
+  //           children: widget.activeFilters.map((filter) {
+  //             return Container(
+  //               padding: EdgeInsets.symmetric(horizontal: 3.w, vertical: 1.h),
+  //               decoration: BoxDecoration(
+  //                 color: AppTheme.lightTheme.colorScheme.primary
+  //                     .withValues(alpha: 0.1),
+  //                 borderRadius: BorderRadius.circular(20),
+  //                 border: Border.all(
+  //                   color: AppTheme.lightTheme.colorScheme.primary
+  //                       .withValues(alpha: 0.3),
+  //                 ),
+  //               ),
+  //               child: Row(
+  //                 mainAxisSize: MainAxisSize.min,
+  //                 children: [
+  //                   Text(
+  //                     filter,
+  //                     style: TextStyle(
+  //                       color: AppTheme.lightTheme.colorScheme.primary,
+  //                       fontSize: 12.sp,
+  //                       fontWeight: FontWeight.w500,
+  //                     ),
+  //                   ),
+  //                   SizedBox(width: 1.w),
+  //                   GestureDetector(
+  //                     onTap: () {
+  //                       // Remove specific filter
+  //                     },
+  //                     child: CustomIconWidget(
+  //                       iconName: 'close',
+  //                       color: AppTheme.lightTheme.colorScheme.primary,
+  //                       size: 16,
+  //                     ),
+  //                   ),
+  //                 ],
+  //               ),
+  //             );
+  //           }).toList(),
+  //         ),
+  //       ],
+  //     ),
+  //   );
+  // }
 
   Widget _buildRecentSearches() {
     return Container(

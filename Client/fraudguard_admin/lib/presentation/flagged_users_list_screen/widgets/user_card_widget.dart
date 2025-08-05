@@ -36,7 +36,8 @@ class UserCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final riskScore = (userData['riskScore'] as num).toDouble();
-    final flagDate = userData['flagDate'] as DateTime;
+    // final flagDate = userData['flagDate'] as DateTime;
+    final flagDate = DateTime.parse(userData['flagDate'] as String);
 
     return Dismissible(
       key: Key(userData['id'].toString()),

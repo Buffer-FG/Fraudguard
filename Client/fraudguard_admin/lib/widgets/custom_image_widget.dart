@@ -24,7 +24,7 @@ class CustomImageWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return CachedNetworkImage(
       imageUrl: imageUrl ??
-          'https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop',
+          'https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png',
       width: width,
       height: height,
       fit: fit,

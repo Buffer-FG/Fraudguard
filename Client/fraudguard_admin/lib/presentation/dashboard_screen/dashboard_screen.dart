@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-
+import 'package:intl/intl.dart';
 import '../../core/app_export.dart';
 import './widgets/fraud_trend_chart_widget.dart';
 import './widgets/high_risk_user_card_widget.dart';
@@ -20,9 +20,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
   // Mock data for dashboard metrics
   final Map<String, dynamic> dashboardMetrics = {
-    "totalUsersScanned": 45672,
-    "flaggedUsersCount": 127,
-    "fraudRate": 2.8,
+    "totalUsersScanned": 1000000,
+    "flaggedUsersCount": 4000,
+    "fraudRate": 1,
     "lastSyncTime": "2 mins ago",
     "isConnected": true,
   };
@@ -35,7 +35,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       "email": "marcus.j@email.com",
       "riskScore": 94.5,
       "profileImage":
-          "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
       "flagDate": "07/15/2025",
       "flagReason": "Multiple identity patterns detected",
     },
@@ -45,7 +45,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       "email": "s.chen.banking@email.com",
       "riskScore": 87.2,
       "profileImage":
-          "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
       "flagDate": "07/16/2025",
       "flagReason": "Suspicious device fingerprinting",
     },
@@ -55,7 +55,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       "email": "d.rodriguez.finance@email.com",
       "riskScore": 82.8,
       "profileImage":
-          "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
       "flagDate": "07/16/2025",
       "flagReason": "Shared IP address patterns",
     },
@@ -65,7 +65,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       "email": "emily.watson.corp@email.com",
       "riskScore": 79.1,
       "profileImage":
-          "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
       "flagDate": "07/17/2025",
       "flagReason": "Anomalous login behavior",
     },
@@ -75,7 +75,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       "email": "m.thompson.secure@email.com",
       "riskScore": 76.3,
       "profileImage":
-          "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
       "flagDate": "07/17/2025",
       "flagReason": "Duplicate phone number usage",
     },
@@ -270,11 +270,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   return HighRiskUserCardWidget(
                     userData: user,
                     onTap: () {
-                      Navigator.pushNamed(
-                        context,
-                        '/user-profile-screen',
-                        arguments: user,
-                      );
+                      Navigator.pushNamed(context, '/dash-user-profile-screen',
+                          arguments: {
+                            ...user,
+                            "flagDate": DateFormat('MM/dd/yyyy')
+                                .parse(user['flagDate']),
+                          });
                     },
                     onLongPress: () {
                       _showUserContextMenu(context, user);
@@ -372,50 +373,50 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          showDialog(
-            context: context,
-            builder: (context) => AlertDialog(
-              title: Text('Manual User Lookup'),
-              content: TextField(
-                decoration: InputDecoration(
-                  hintText: 'Enter user ID or email',
-                  prefixIcon: CustomIconWidget(
-                    iconName: 'search',
-                    color: AppTheme.lightTheme.colorScheme.onSurfaceVariant,
-                    size: 20,
-                  ),
-                ),
-              ),
-              actions: [
-                TextButton(
-                  onPressed: () => Navigator.pop(context),
-                  child: Text('Cancel'),
-                ),
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(content: Text('User lookup initiated')),
-                    );
-                  },
-                  child: Text('Search'),
-                ),
-              ],
-            ),
-          );
-        },
-        backgroundColor:
-            AppTheme.lightTheme.floatingActionButtonTheme.backgroundColor,
-        foregroundColor:
-            AppTheme.lightTheme.floatingActionButtonTheme.foregroundColor,
-        child: CustomIconWidget(
-          iconName: 'search',
-          color: AppTheme.lightTheme.floatingActionButtonTheme.foregroundColor!,
-          size: 24,
-        ),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {
+      //     showDialog(
+      //       context: context,
+      //       builder: (context) => AlertDialog(
+      //         title: Text('Manual User Lookup'),
+      //         content: TextField(
+      //           decoration: InputDecoration(
+      //             hintText: 'Enter user ID or email',
+      //             prefixIcon: CustomIconWidget(
+      //               iconName: 'search',
+      //               color: AppTheme.lightTheme.colorScheme.onSurfaceVariant,
+      //               size: 20,
+      //             ),
+      //           ),
+      //         ),
+      //         actions: [
+      //           TextButton(
+      //             onPressed: () => Navigator.pop(context),
+      //             child: Text('Cancel'),
+      //           ),
+      //           ElevatedButton(
+      //             onPressed: () {
+      //               Navigator.pop(context);
+      //               ScaffoldMessenger.of(context).showSnackBar(
+      //                 SnackBar(content: Text('User lookup initiated')),
+      //               );
+      //             },
+      //             child: Text('Search'),
+      //           ),
+      //         ],
+      //       ),
+      //     );
+      //   },
+      //   backgroundColor:
+      //       AppTheme.lightTheme.floatingActionButtonTheme.backgroundColor,
+      //   foregroundColor:
+      //       AppTheme.lightTheme.floatingActionButtonTheme.foregroundColor,
+      //   child: CustomIconWidget(
+      //     iconName: 'search',
+      //     color: AppTheme.lightTheme.floatingActionButtonTheme.foregroundColor!,
+      //     size: 24,
+      //   ),
+      // ),
     );
   }
 }

@@ -34,14 +34,11 @@ class UserHeaderCard extends StatelessWidget {
                       width: 2,
                     ),
                   ),
-                  child: ClipOval(
-                    child: CustomImageWidget(
-                      imageUrl: userData['profileImage'] as String? ??
-                          'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face',
-                      width: 20.w,
-                      height: 20.w,
-                      fit: BoxFit.cover,
-                    ),
+                  child: CustomImageWidget(
+                    imageUrl: 'assets/images/user_placeholder.png', // this should be your default image
+                    width: 20.w,
+                    height: 20.w,
+                    fit: BoxFit.cover,
                   ),
                 ),
                 SizedBox(width: 4.w),
@@ -50,13 +47,13 @@ class UserHeaderCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        userData['name'] as String,
+                        userData['name'] as String? ?? 'Unknown',
                         style: AppTheme.lightTheme.textTheme.titleLarge,
                         overflow: TextOverflow.ellipsis,
                       ),
                       SizedBox(height: 1.h),
                       Text(
-                        userData['email'] as String,
+                        userData['email'] as String? ?? 'Unknown',
                         style:
                             AppTheme.lightTheme.textTheme.bodyMedium?.copyWith(
                           color:
@@ -66,7 +63,7 @@ class UserHeaderCard extends StatelessWidget {
                       ),
                       SizedBox(height: 0.5.h),
                       Text(
-                        userData['phone'] as String,
+                        userData['phone'] as String? ?? 'Unknown',
                         style: AppTheme.lightTheme.textTheme.bodySmall,
                         overflow: TextOverflow.ellipsis,
                       ),

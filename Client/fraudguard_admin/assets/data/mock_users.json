@@ -1,0 +1,2143 @@
+[
+    {
+      "id": 1,
+      "name": "John Anderson",
+      "email": "john.anderson@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-08-05T07:19:20.104321",
+      "region": "North America",
+      "flagReason":
+          "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 87,
+      "flagDate": "2025-08-05T04:19:20.239874",
+      "region": "Europe",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 3,
+      "name": "Michael Chen",
+      "email": "michael.chen@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-08-05T01:19:20.987123",
+      "region": "Asia Pacific",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 4,
+      "name": "Emily Rodriguez",
+      "email": "emily.rodriguez@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 78,
+      "flagDate": "2025-08-04T09:19:20.543210",
+      "region": "Latin America",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 5,
+      "name": "David Thompson",
+      "email": "david.thompson@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-08-04T06:19:20.678901",
+      "region": "North America",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 6,
+      "name": "Lisa Park",
+      "email": "lisa.park@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 73,
+      "flagDate": "2025-08-03T09:19:20.112233",
+      "region": "Asia Pacific",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 7,
+      "name": "Robert Johnson",
+      "email": "robert.johnson@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 89,
+      "flagDate": "2025-08-03T04:19:20.445566",
+      "region": "Europe",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 8,
+      "name": "Maria Garcia",
+      "email": "maria.garcia@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 81,
+      "flagDate": "2025-08-02T09:19:20.778899",
+      "region": "Latin America",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 9,
+      "name": "James Miller",
+      "email": "james.miller@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 76,
+      "flagDate": "2025-08-02T01:19:20.011224",
+      "region": "North America",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 10,
+      "name": "Anna Kowalski",
+      "email": "anna.kowalski@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 94,
+      "flagDate": "2025-08-01T09:19:20.344557",
+      "region": "Europe",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 11,
+      "name": "Priya Sharma",
+      "email": "priya.sharma@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-08-01T07:19:20.123456",
+      "region": "South Asia",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 12,
+      "name": "Kenji Tanaka",
+      "email": "kenji.tanaka@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-31T09:19:20.234567",
+      "region": "Asia Pacific",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 13,
+      "name": "Fatima Al Fassi",
+      "email": "fatima.alfassi@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-30T21:19:20.345678",
+      "region": "Middle East",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 14,
+      "name": "Carlos Santos",
+      "email": "carlos.santos@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 75,
+      "flagDate": "2025-07-30T09:19:20.456789",
+      "region": "Latin America",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 15,
+      "name": "Chloe Dubois",
+      "email": "chloe.dubois@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 84,
+      "flagDate": "2025-07-30T01:19:20.567890",
+      "region": "Europe",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 16,
+      "name": "Samuel Wright",
+      "email": "samuel.wright@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-29T09:19:20.678901",
+      "region": "North America",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 17,
+      "name": "Aarav Patel",
+      "email": "aarav.patel@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 82,
+      "flagDate": "2025-07-28T18:19:20.789012",
+      "region": "South Asia",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 18,
+      "name": "Isabella Rossi",
+      "email": "isabella.rossi@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 77,
+      "flagDate": "2025-07-28T09:19:20.890123",
+      "region": "Europe",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 19,
+      "name": "Wei Zhang",
+      "email": "wei.zhang@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 86,
+      "flagDate": "2025-07-28T00:19:20.901234",
+      "region": "Asia Pacific",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 20,
+      "name": "Ngozi Okafor",
+      "email": "ngozi.okafor@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-27T09:19:20.012345",
+      "region": "Africa",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 21,
+      "name": "Liam Murphy",
+      "email": "liam.murphy@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 74,
+      "flagDate": "2025-07-26T15:19:20.123456",
+      "region": "Europe",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 22,
+      "name": "Sofia Hernandez",
+      "email": "sofia.hernandez@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-07-26T09:19:20.234567",
+      "region": "Latin America",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 23,
+      "name": "Mohammed Ali",
+      "email": "mohammed.ali@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 96,
+      "flagDate": "2025-07-26T04:19:20.345678",
+      "region": "Middle East",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 24,
+      "name": "Olivia Chen",
+      "email": "olivia.chen@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 81,
+      "flagDate": "2025-07-25T09:19:20.456789",
+      "region": "North America",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 25,
+      "name": "Ivan Petrov",
+      "email": "ivan.petrov@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 89,
+      "flagDate": "2025-07-24T22:19:20.567890",
+      "region": "Europe",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 26,
+      "name": "Ananya Gupta",
+      "email": "ananya.gupta@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 78,
+      "flagDate": "2025-07-24T09:19:20.678901",
+      "region": "South Asia",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 27,
+      "name": "Lucas Schmidt",
+      "email": "lucas.schmidt@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 87,
+      "flagDate": "2025-07-24T02:19:20.789012",
+      "region": "Europe",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 28,
+      "name": "Yuki Yamamoto",
+      "email": "yuki.yamamoto@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-23T09:19:20.890123",
+      "region": "Asia Pacific",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 29,
+      "name": "Amara Diallo",
+      "email": "amara.diallo@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 76,
+      "flagDate": "2025-07-22T13:19:20.901234",
+      "region": "Africa",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 30,
+      "name": "Benjamin Carter",
+      "email": "benjamin.carter@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 83,
+      "flagDate": "2025-07-22T09:19:20.012345",
+      "region": "North America",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 31,
+      "name": "Aisha Khan",
+      "email": "aisha.khan@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 94,
+      "flagDate": "2025-07-22T03:19:20.123456",
+      "region": "Middle East",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 32,
+      "name": "Mateo Rossi",
+      "email": "mateo.rossi@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 72,
+      "flagDate": "2025-07-21T09:19:20.234567",
+      "region": "Latin America",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 33,
+      "name": "Oliver Wilson",
+      "email": "oliver.wilson@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-20T19:19:20.345678",
+      "region": "Australia/Oceania",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 34,
+      "name": "Arjun Singh",
+      "email": "arjun.singh@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-07-20T09:19:20.456789",
+      "region": "South Asia",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 35,
+      "name": "Freja Nielsen",
+      "email": "freja.nielsen@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 80,
+      "flagDate": "2025-07-20T06:19:20.567890",
+      "region": "Europe",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 36,
+      "name": "Hiroshi Sato",
+      "email": "hiroshi.sato@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 71,
+      "flagDate": "2025-07-19T09:19:20.678901",
+      "region": "Asia Pacific",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 37,
+      "name": "Isabelle Tremblay",
+      "email": "isabelle.tremblay@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 86,
+      "flagDate": "2025-07-18T23:19:20.789012",
+      "region": "North America",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 38,
+      "name": "Adama Traore",
+      "email": "adama.traore@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-18T09:19:20.890123",
+      "region": "Africa",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 39,
+      "name": "Valentina Ferreira",
+      "email": "valentina.ferreira@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-17T14:19:20.901234",
+      "region": "Latin America",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 40,
+      "name": "Yara Ahmed",
+      "email": "yara.ahmed@email.com",
+      "avatar":
+          "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 84,
+      "flagDate": "2025-07-17T09:19:20.012345",
+      "region": "Middle East",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 41,
+      "name": "Ethan Hunt",
+      "email": "ethan.hunt@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 97,
+      "flagDate": "2025-07-17T07:19:20.123456",
+      "region": "North America",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 42,
+      "name": "Mia Wong",
+      "email": "mia.wong@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 73,
+      "flagDate": "2025-07-16T09:19:20.234567",
+      "region": "Asia Pacific",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 43,
+      "name": "Leo Virtanen",
+      "email": "leo.virtanen@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-16T04:19:20.345678",
+      "region": "Europe",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 44,
+      "name": "Zoe Kim",
+      "email": "zoe.kim@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 82,
+      "flagDate": "2025-07-15T09:19:20.456789",
+      "region": "North America",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 45,
+      "name": "Rohan Mehta",
+      "email": "rohan.mehta@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-14T21:19:20.567890",
+      "region": "South Asia",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 46,
+      "name": "Camila Silva",
+      "email": "camila.silva@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 77,
+      "flagDate": "2025-07-14T09:19:20.678901",
+      "region": "Latin America",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 47,
+      "name": "Jamal Hussein",
+      "email": "jamal.hussein@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-14T01:19:20.789012",
+      "region": "Africa",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 48,
+      "name": "Alice Moreau",
+      "email": "alice.moreau@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-07-13T09:19:20.890123",
+      "region": "Europe",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 49,
+      "name": "Daniel Taylor",
+      "email": "daniel.taylor@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 75,
+      "flagDate": "2025-07-12T18:19:20.901234",
+      "region": "Australia/Oceania",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 50,
+      "name": "Lin Wei",
+      "email": "lin.wei@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 94,
+      "flagDate": "2025-07-12T09:19:20.012345",
+      "region": "Asia Pacific",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 51,
+      "name": "Omar Hassan",
+      "email": "omar.hassan@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 81,
+      "flagDate": "2025-07-12T08:19:20.123456",
+      "region": "Middle East",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 52,
+      "name": "Eva Novak",
+      "email": "eva.novak@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-12T07:19:20.234567",
+      "region": "Europe",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 53,
+      "name": "Zara Ali",
+      "email": "zara.ali@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-12T06:19:20.345678",
+      "region": "South Asia",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 54,
+      "name": "Alex Miller",
+      "email": "alex.miller@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-12T05:19:20.456789",
+      "region": "North America",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 55,
+      "name": "Ibrahim Sow",
+      "email": "ibrahim.sow@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 83,
+      "flagDate": "2025-07-12T04:19:20.567890",
+      "region": "Africa",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 56,
+      "name": "Luis Gonzalez",
+      "email": "luis.gonzalez@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-07-12T03:19:20.678901",
+      "region": "Latin America",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 57,
+      "name": "Hana Suzuki",
+      "email": "hana.suzuki@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 76,
+      "flagDate": "2025-07-12T02:19:20.789012",
+      "region": "Asia Pacific",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 58,
+      "name": "Thomas Müller",
+      "email": "thomas.muller@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 89,
+      "flagDate": "2025-07-12T01:19:20.890123",
+      "region": "Europe",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 59,
+      "name": "Grace Lee",
+      "email": "grace.lee@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 84,
+      "flagDate": "2025-07-12T00:19:20.901234",
+      "region": "North America",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 60,
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-11T23:19:20.012345",
+      "region": "South Asia",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 61,
+      "name": "Harper King",
+      "email": "harper.king@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 71,
+      "flagDate": "2025-07-11T22:19:20.123456",
+      "region": "Australia/Oceania",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 62,
+      "name": "Moussa Diop",
+      "email": "moussa.diop@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 98,
+      "flagDate": "2025-07-11T21:19:20.234567",
+      "region": "Africa",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 63,
+      "name": "Isla Scott",
+      "email": "isla.scott@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 82,
+      "flagDate": "2025-07-11T20:19:20.345678",
+      "region": "Europe",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 64,
+      "name": "Miguel Reyes",
+      "email": "miguel.reyes@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 87,
+      "flagDate": "2025-07-11T19:19:20.456789",
+      "region": "Latin America",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 65,
+      "name": "Yuna Kim",
+      "email": "yuna.kim@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-11T18:19:20.567890",
+      "region": "Asia Pacific",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 66,
+      "name": "Omar Abdullah",
+      "email": "omar.abdullah@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-11T17:19:20.678901",
+      "region": "Middle East",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 67,
+      "name": "Ella Walker",
+      "email": "ella.walker@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 74,
+      "flagDate": "2025-07-11T16:19:20.789012",
+      "region": "North America",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 68,
+      "name": "Vivaan Kumar",
+      "email": "vivaan.kumar@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-11T15:19:20.890123",
+      "region": "South Asia",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 69,
+      "name": "Luka Horvat",
+      "email": "luka.horvat@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-07-11T14:19:20.901234",
+      "region": "Europe",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 70,
+      "name": "Amina Ibrahim",
+      "email": "amina.ibrahim@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-11T13:19:20.012345",
+      "region": "Africa",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 71,
+      "name": "Jackson Green",
+      "email": "jackson.green@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 73,
+      "flagDate": "2025-07-11T12:19:20.123456",
+      "region": "Australia/Oceania",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 72,
+      "name": "Ren Ito",
+      "email": "ren.ito@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 96,
+      "flagDate": "2025-07-11T11:19:20.234567",
+      "region": "Asia Pacific",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 73,
+      "name": "Isabela Oliveira",
+      "email": "isabela.oliveira@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 81,
+      "flagDate": "2025-07-11T10:19:20.345678",
+      "region": "Latin America",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 74,
+      "name": "Layla Mansour",
+      "email": "layla.mansour@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-11T09:19:20.456789",
+      "region": "Middle East",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 75,
+      "name": "Noah Tremblay",
+      "email": "noah.tremblay@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 78,
+      "flagDate": "2025-07-11T08:19:20.567890",
+      "region": "North America",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 76,
+      "name": "Aditya Sharma",
+      "email": "aditya.sharma@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 86,
+      "flagDate": "2025-07-11T07:19:20.678901",
+      "region": "South Asia",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 77,
+      "name": "Mila Jansen",
+      "email": "mila.jansen@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-11T06:19:20.789012",
+      "region": "Europe",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 78,
+      "name": "Chiamaka Nwosu",
+      "email": "chiamaka.nwosu@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 83,
+      "flagDate": "2025-07-11T05:19:20.890123",
+      "region": "Africa",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 79,
+      "name": "Leo Mitchell",
+      "email": "leo.mitchell@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 75,
+      "flagDate": "2025-07-11T04:19:20.901234",
+      "region": "Australia/Oceania",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 80,
+      "name": "Liu Fang",
+      "email": "liu.fang@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-07-11T03:19:20.012345",
+      "region": "Asia Pacific",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 81,
+      "name": "Sebastian Cruz",
+      "email": "sebastian.cruz@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 80,
+      "flagDate": "2025-07-11T02:19:20.123456",
+      "region": "Latin America",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 82,
+      "name": "Youssef Ibrahim",
+      "email": "youssef.ibrahim@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 89,
+      "flagDate": "2025-07-11T01:19:20.234567",
+      "region": "Middle East",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 83,
+      "name": "Aurora Bell",
+      "email": "aurora.bell@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 94,
+      "flagDate": "2025-07-11T00:19:20.345678",
+      "region": "North America",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 84,
+      "name": "Ishaan Verma",
+      "email": "ishaan.verma@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 72,
+      "flagDate": "2025-07-10T23:19:20.456789",
+      "region": "South Asia",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 85,
+      "name": "Anastasia Volkova",
+      "email": "anastasia.volkova@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-10T22:19:20.567890",
+      "region": "Europe",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 86,
+      "name": "Emeka Adebayo",
+      "email": "emeka.adebayo@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-10T21:19:20.678901",
+      "region": "Africa",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 87,
+      "name": "Chloe Campbell",
+      "email": "chloe.campbell@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 76,
+      "flagDate": "2025-07-10T20:19:20.789012",
+      "region": "Australia/Oceania",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 88,
+      "name": "Haruto Watanabe",
+      "email": "haruto.watanabe@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-07-10T19:19:20.890123",
+      "region": "Asia Pacific",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 89,
+      "name": "Sofia Pereira",
+      "email": "sofia.pereira@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 96,
+      "flagDate": "2025-07-10T18:19:20.901234",
+      "region": "Latin America",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 90,
+      "name": "Fatima Zahra",
+      "email": "fatima.zahra@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 81,
+      "flagDate": "2025-07-10T17:19:20.012345",
+      "region": "Middle East",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 91,
+      "name": "Levi Evans",
+      "email": "levi.evans@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-10T16:19:20.123456",
+      "region": "North America",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 92,
+      "name": "Aaradhya Singh",
+      "email": "aaradhya.singh@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 74,
+      "flagDate": "2025-07-10T15:19:20.234567",
+      "region": "South Asia",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 93,
+      "name": "Felix Dubois",
+      "email": "felix.dubois@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 87,
+      "flagDate": "2025-07-10T14:19:20.345678",
+      "region": "Europe",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 94,
+      "name": "Folami Bello",
+      "email": "folami.bello@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-10T13:19:20.456789",
+      "region": "Africa",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 95,
+      "name": "Scarlett Hill",
+      "email": "scarlett.hill@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 77,
+      "flagDate": "2025-07-10T12:19:20.567890",
+      "region": "Australia/Oceania",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 96,
+      "name": "Mei Lin",
+      "email": "mei.lin@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 84,
+      "flagDate": "2025-07-10T11:19:20.678901",
+      "region": "Asia Pacific",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 97,
+      "name": "Mateo Vargas",
+      "email": "mateo.vargas@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 98,
+      "flagDate": "2025-07-10T10:19:20.789012",
+      "region": "Latin America",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 98,
+      "name": "Noor Haddad",
+      "email": "noor.haddad@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 82,
+      "flagDate": "2025-07-10T09:19:20.890123",
+      "region": "Middle East",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 99,
+      "name": "Elijah Phillips",
+      "email": "elijah.phillips@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-10T08:19:20.901234",
+      "region": "North America",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 100,
+      "name": "Saanvi Shah",
+      "email": "saanvi.shah@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 71,
+      "flagDate": "2025-07-10T07:19:20.012345",
+      "region": "South Asia",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 101,
+      "name": "Arthur Lefevre",
+      "email": "arthur.lefevre@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 86,
+      "flagDate": "2025-07-10T06:19:20.123456",
+      "region": "Europe",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 102,
+      "name": "Jabari Okoro",
+      "email": "jabari.okoro@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-07-10T05:19:20.234567",
+      "region": "Africa",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 103,
+      "name": "Evelyn Baker",
+      "email": "evelyn.baker@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-10T04:19:20.345678",
+      "region": "Australia/Oceania",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 104,
+      "name": "Kaito Nakamura",
+      "email": "kaito.nakamura@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-10T03:19:20.456789",
+      "region": "Asia Pacific",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 105,
+      "name": "Valentina Rojas",
+      "email": "valentina.rojas@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 97,
+      "flagDate": "2025-07-10T02:19:20.567890",
+      "region": "Latin America",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 106,
+      "name": "Tariq Al-Jamil",
+      "email": "tariq.al-jamil@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 83,
+      "flagDate": "2025-07-10T01:19:20.678901",
+      "region": "Middle East",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 107,
+      "name": "Zoe Turner",
+      "email": "zoe.turner@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-10T00:19:20.789012",
+      "region": "North America",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 108,
+      "name": "Reyansh Gupta",
+      "email": "reyansh.gupta@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 75,
+      "flagDate": "2025-07-09T23:19:20.890123",
+      "region": "South Asia",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 109,
+      "name": "Eliza Nowak",
+      "email": "eliza.nowak@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 84,
+      "flagDate": "2025-07-09T22:19:20.901234",
+      "region": "Europe",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 110,
+      "name": "Nia Williams",
+      "email": "nia.williams@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 96,
+      "flagDate": "2025-07-09T21:19:20.012345",
+      "region": "North America",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 111,
+      "name": "Santiago Morales",
+      "email": "santiago.morales@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 80,
+      "flagDate": "2025-07-09T20:19:20.123456",
+      "region": "Latin America",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 112,
+      "name": "Chen Yue",
+      "email": "chen.yue@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 89,
+      "flagDate": "2025-07-09T19:19:20.234567",
+      "region": "Asia Pacific",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 113,
+      "name": "Aadan Hassan",
+      "email": "aadan.hassan@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-09T18:19:20.345678",
+      "region": "Africa",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 114,
+      "name": "Isla Robinson",
+      "email": "isla.robinson@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 73,
+      "flagDate": "2025-07-09T17:19:20.456789",
+      "region": "Australia/Oceania",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 115,
+      "name": "Ibrahim Al-Farsi",
+      "email": "ibrahim.al-farsi@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-09T16:19:20.567890",
+      "region": "Middle East",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 116,
+      "name": "Kavya Reddy",
+      "email": "kavya.reddy@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-07-09T15:19:20.678901",
+      "region": "South Asia",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 117,
+      "name": "Matteo Bianchi",
+      "email": "matteo.bianchi@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-09T14:19:20.789012",
+      "region": "Europe",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 118,
+      "name": "Willow Smith",
+      "email": "willow.smith@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 72,
+      "flagDate": "2025-07-09T13:19:20.890123",
+      "region": "North America",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 119,
+      "name": "Alejandro Diaz",
+      "email": "alejandro.diaz@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 97,
+      "flagDate": "2025-07-09T12:19:20.901234",
+      "region": "Latin America",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 120,
+      "name": "Sakura Yamamoto",
+      "email": "sakura.yamamoto@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 86,
+      "flagDate": "2025-07-09T11:19:20.012345",
+      "region": "Asia Pacific",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 121,
+      "name": "Kwame Addo",
+      "email": "kwame.addo@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-09T10:19:20.123456",
+      "region": "Africa",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 122,
+      "name": "Cooper White",
+      "email": "cooper.white@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 70,
+      "flagDate": "2025-07-09T09:19:20.234567",
+      "region": "Australia/Oceania",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 123,
+      "name": "Samira Said",
+      "email": "samira.said@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 94,
+      "flagDate": "2025-07-09T08:19:20.345678",
+      "region": "Middle East",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 124,
+      "name": "Myra Singh",
+      "email": "myra.singh@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 81,
+      "flagDate": "2025-07-09T07:19:20.456789",
+      "region": "South Asia",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 125,
+      "name": "Marius Popescu",
+      "email": "marius.popescu@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 87,
+      "flagDate": "2025-07-09T06:19:20.567890",
+      "region": "Europe",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 126,
+      "name": "Ezra Davis",
+      "email": "ezra.davis@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-09T05:19:20.678901",
+      "region": "North America",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 127,
+      "name": "Camila Gomez",
+      "email": "camila.gomez@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 76,
+      "flagDate": "2025-07-09T04:19:20.789012",
+      "region": "Latin America",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 128,
+      "name": "Jian Li",
+      "email": "jian.li@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-07-09T03:19:20.890123",
+      "region": "Asia Pacific",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 129,
+      "name": "Zola Nkosi",
+      "email": "zola.nkosi@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 83,
+      "flagDate": "2025-07-09T02:19:20.901234",
+      "region": "Africa",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 130,
+      "name": "Ruby Harris",
+      "email": "ruby.harris@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 89,
+      "flagDate": "2025-07-09T01:19:20.012345",
+      "region": "Australia/Oceania",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 131,
+      "name": "Rami Malek",
+      "email": "rami.malek@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-09T00:19:20.123456",
+      "region": "Middle East",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 132,
+      "name": "Vihaan Patel",
+      "email": "vihaan.patel@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-08T23:19:20.234567",
+      "region": "South Asia",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 133,
+      "name": "Lina Wagner",
+      "email": "lina.wagner@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 94,
+      "flagDate": "2025-07-08T22:19:20.345678",
+      "region": "Europe",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 134,
+      "name": "Asher Clark",
+      "email": "asher.clark@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 82,
+      "flagDate": "2025-07-08T21:19:20.456789",
+      "region": "North America",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 135,
+      "name": "Daniel Castillo",
+      "email": "daniel.castillo@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-08T20:19:20.567890",
+      "region": "Latin America",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 136,
+      "name": "Hinata Takahashi",
+      "email": "hinata.takahashi@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-08T19:19:20.678901",
+      "region": "Asia Pacific",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 137,
+      "name": "Ayanda Dlamini",
+      "email": "ayanda.dlamini@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 77,
+      "flagDate": "2025-07-08T18:19:20.789012",
+      "region": "Africa",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 138,
+      "name": "Max Lewis",
+      "email": "max.lewis@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 86,
+      "flagDate": "2025-07-08T17:19:20.890123",
+      "region": "Australia/Oceania",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 139,
+      "name": "Amir Khalid",
+      "email": "amir.khalid@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-08T16:19:20.901234",
+      "region": "Middle East",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 140,
+      "name": "Kiara Rao",
+      "email": "kiara.rao@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 84,
+      "flagDate": "2025-07-08T15:19:20.012345",
+      "region": "South Asia",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 141,
+      "name": "Victoria Ivanova",
+      "email": "victoria.ivanova@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-07-08T14:19:20.123456",
+      "region": "Europe",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 142,
+      "name": "Henry Allen",
+      "email": "henry.allen@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 71,
+      "flagDate": "2025-07-08T13:19:20.234567",
+      "region": "North America",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 143,
+      "name": "Gabriela Flores",
+      "email": "gabriela.flores@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-08T12:19:20.345678",
+      "region": "Latin America",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 144,
+      "name": "Anh Tran",
+      "email": "anh.tran@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 80,
+      "flagDate": "2025-07-08T11:19:20.456789",
+      "region": "Asia Pacific",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 145,
+      "name": "Thabo Zulu",
+      "email": "thabo.zulu@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 87,
+      "flagDate": "2025-07-08T10:19:20.567890",
+      "region": "Africa",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 146,
+      "name": "Georgia Wilson",
+      "email": "georgia.wilson@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-08T09:19:20.678901",
+      "region": "Australia/Oceania",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 147,
+      "name": "Zayn Malik",
+      "email": "zayn.malik@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 78,
+      "flagDate": "2025-07-08T08:19:20.789012",
+      "region": "Middle East",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 148,
+      "name": "Advik Joshi",
+      "email": "advik.joshi@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 96,
+      "flagDate": "2025-07-08T07:19:20.890123",
+      "region": "South Asia",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 149,
+      "name": "Clara Fischer",
+      "email": "clara.fischer@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-07-08T06:19:20.901234",
+      "region": "Europe",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 150,
+      "name": "Penelope Scott",
+      "email": "penelope.scott@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-08T05:19:20.012345",
+      "region": "North America",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 151,
+      "name": "Julian Torres",
+      "email": "julian.torres@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 74,
+      "flagDate": "2025-07-08T04:19:20.123456",
+      "region": "Latin America",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 152,
+      "name": "Yiren Wang",
+      "email": "yiren.wang@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-08T03:19:20.234567",
+      "region": "Asia Pacific",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 153,
+      "name": "Akin Adekunle",
+      "email": "akin.adekunle@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-08T02:19:20.345678",
+      "region": "Africa",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 154,
+      "name": "Stella Nelson",
+      "email": "stella.nelson@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 82,
+      "flagDate": "2025-07-08T01:19:20.456789",
+      "region": "Australia/Oceania",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 155,
+      "name": "Karim Jaber",
+      "email": "karim.jaber@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 89,
+      "flagDate": "2025-07-08T00:19:20.567890",
+      "region": "Middle East",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 156,
+      "name": "Isha Nair",
+      "email": "isha.nair@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 94,
+      "flagDate": "2025-07-07T23:19:20.678901",
+      "region": "South Asia",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 157,
+      "name": "Anton Smirnov",
+      "email": "anton.smirnov@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-07T22:19:20.789012",
+      "region": "Europe",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 158,
+      "name": "Leo Carter",
+      "email": "leo.carter@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-07-07T21:19:20.890123",
+      "region": "North America",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 159,
+      "name": "Luisa Moreno",
+      "email": "luisa.moreno@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-07T20:19:20.901234",
+      "region": "Latin America",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 160,
+      "name": "Akira Tanaka",
+      "email": "akira.tanaka@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 75,
+      "flagDate": "2025-07-07T19:19:20.012345",
+      "region": "Asia Pacific",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 161,
+      "name": "Nneka Okeke",
+      "email": "nneka.okeke@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 87,
+      "flagDate": "2025-07-07T18:19:20.123456",
+      "region": "Africa",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 162,
+      "name": "Flynn O'Kelly",
+      "email": "flynn.o'kelly@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 96,
+      "flagDate": "2025-07-07T17:19:20.234567",
+      "region": "Australia/Oceania",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 163,
+      "name": "Salma Mahmoud",
+      "email": "salma.mahmoud@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 81,
+      "flagDate": "2025-07-07T16:19:20.345678",
+      "region": "Middle East",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 164,
+      "name": "Kabir Das",
+      "email": "kabir.das@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-07T15:19:20.456789",
+      "region": "South Asia",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 165,
+      "name": "Katarina Petrovic",
+      "email": "katarina.petrovic@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 84,
+      "flagDate": "2025-07-07T14:19:20.567890",
+      "region": "Europe",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 166,
+      "name": "Paisley Adams",
+      "email": "paisley.adams@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-07T13:19:20.678901",
+      "region": "North America",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 167,
+      "name": "Thiago Alves",
+      "email": "thiago.alves@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 73,
+      "flagDate": "2025-07-07T12:19:20.789012",
+      "region": "Latin America",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 168,
+      "name": "Anika Sharma",
+      "email": "anika.sharma@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 98,
+      "flagDate": "2025-07-07T11:19:20.890123",
+      "region": "South Asia",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 169,
+      "name": "Mustafa Ali",
+      "email": "mustafa.ali@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-07T10:19:20.901234",
+      "region": "Middle East",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 170,
+      "name": "Ryan Harris",
+      "email": "ryan.harris@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 77,
+      "flagDate": "2025-07-07T09:19:20.012345",
+      "region": "Australia/Oceania",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 171,
+      "name": "Olumide Abebe",
+      "email": "olumide.abebe@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-07T08:19:20.123456",
+      "region": "Africa",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 172,
+      "name": "Lin Chen",
+      "email": "lin.chen@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 86,
+      "flagDate": "2025-07-07T07:19:20.234567",
+      "region": "Asia Pacific",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 173,
+      "name": "Leonardo Costa",
+      "email": "leonardo.costa@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 80,
+      "flagDate": "2025-07-07T06:19:20.345678",
+      "region": "Latin America",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 174,
+      "name": "Stella Dubois",
+      "email": "stella.dubois@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-07T05:19:20.456789",
+      "region": "Europe",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 175,
+      "name": "Avery Martin",
+      "email": "avery.martin@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 76,
+      "flagDate": "2025-07-07T04:19:20.567890",
+      "region": "North America",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 176,
+      "name": "Zoya Khan",
+      "email": "zoya.khan@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 89,
+      "flagDate": "2025-07-07T03:19:20.678901",
+      "region": "South Asia",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 177,
+      "name": "Amelia Lewis",
+      "email": "amelia.lewis@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-07-07T02:19:20.789012",
+      "region": "Australia/Oceania",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 178,
+      "name": "Ikenna Okoro",
+      "email": "ikenna.okoro@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 83,
+      "flagDate": "2025-07-07T01:19:20.890123",
+      "region": "Africa",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 179,
+      "name": "Sota Kobayashi",
+      "email": "sota.kobayashi@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 87,
+      "flagDate": "2025-07-07T00:19:20.901234",
+      "region": "Asia Pacific",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 180,
+      "name": "Mariana Castillo",
+      "email": "mariana.castillo@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 92,
+      "flagDate": "2025-07-06T23:19:20.012345",
+      "region": "Latin America",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 181,
+      "name": "Hassan Abbas",
+      "email": "hassan.abbas@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 78,
+      "flagDate": "2025-07-06T22:19:20.123456",
+      "region": "Middle East",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 182,
+      "name": "Zofia Zielinska",
+      "email": "zofia.zielinska@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-06T21:19:20.234567",
+      "region": "Europe",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 183,
+      "name": "Ethan Wright",
+      "email": "ethan.wright@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 84,
+      "flagDate": "2025-07-06T20:19:20.345678",
+      "region": "North America",
+      "flagReason": "Identity verification failed multiple times"
+    },
+    {
+      "id": 184,
+      "name": "Riya Sharma",
+      "email": "riya.sharma@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 94,
+      "flagDate": "2025-07-06T19:19:20.456789",
+      "region": "South Asia",
+      "flagReason": "Suspicious device fingerprinting patterns"
+    },
+    {
+      "id": 185,
+      "name": "Levi Turner",
+      "email": "levi.turner@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 72,
+      "flagDate": "2025-07-06T18:19:20.567890",
+      "region": "Australia/Oceania",
+      "flagReason": "Anomalous spending behavior detected"
+    },
+    {
+      "id": 186,
+      "name": "Ifunanya Nwankwo",
+      "email": "ifunanya.nwankwo@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 97,
+      "flagDate": "2025-07-06T17:19:20.678901",
+      "region": "Africa",
+      "flagReason": "Multiple failed authentication attempts"
+    },
+    {
+      "id": 187,
+      "name": "Yui Ishikawa",
+      "email": "yui.ishikawa@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-07-06T16:19:20.789012",
+      "region": "Asia Pacific",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 188,
+      "name": "Matias Romero",
+      "email": "matias.romero@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 89,
+      "flagDate": "2025-07-06T15:19:20.890123",
+      "region": "Latin America",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 189,
+      "name": "Farah Said",
+      "email": "farah.said@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 91,
+      "flagDate": "2025-07-06T14:19:20.901234",
+      "region": "Middle East",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 190,
+      "name": "Jan Kowalski",
+      "email": "jan.kowalski@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-06T13:19:20.012345",
+      "region": "Europe",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 191,
+      "name": "Madison Clark",
+      "email": "madison.clark@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 83,
+      "flagDate": "2025-07-06T12:19:20.123456",
+      "region": "North America",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 192,
+      "name": "Aarav Choudhary",
+      "email": "aarav.choudhary@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 96,
+      "flagDate": "2025-07-06T11:19:20.234567",
+      "region": "South Asia",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 193,
+      "name": "Hudson Moore",
+      "email": "hudson.moore@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 82,
+      "flagDate": "2025-07-06T10:19:20.345678",
+      "region": "Australia/Oceania",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 194,
+      "name": "Chidinma Adeyemi",
+      "email": "chidinma.adeyemi@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-06T09:19:20.456789",
+      "region": "Africa",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 195,
+      "name": "Kai Wang",
+      "email": "kai.wang@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-06T08:19:20.567890",
+      "region": "Asia Pacific",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 196,
+      "name": "Ricardo Vega",
+      "email": "ricardo.vega@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 75,
+      "flagDate": "2025-07-06T07:19:20.678901",
+      "region": "Latin America",
+      "flagReason": "Account takeover attempt suspected"
+    },
+    {
+      "id": 197,
+      "name": "Nadia Qureshi",
+      "email": "nadia.qureshi@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-06T06:19:20.789012",
+      "region": "Middle East",
+      "flagReason": "Linkage to known fraud ring"
+    },
+    {
+      "id": 198,
+      "name": "Elena Petrova",
+      "email": "elena.petrova@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 86,
+      "flagDate": "2025-07-06T05:19:20.890123",
+      "region": "Europe",
+      "flagReason": "Use of a virtual machine or emulator"
+    },
+    {
+      "id": 199,
+      "name": "Miles Bennett",
+      "email": "miles.bennett@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-07-06T04:19:20.901234",
+      "region": "North America",
+      "flagReason": "Multiple suspicious login attempts from different locations"
+    },
+    {
+      "id": 200,
+      "name": "Diya Mehta",
+      "email": "diya.mehta@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-06T03:19:20.012345",
+      "region": "South Asia",
+      "flagReason": "Unusual transaction patterns detected"
+    },
+    {
+      "id": 201,
+      "name": "Anya Sharma",
+      "email": "anya.sharma@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 86,
+      "flagDate": "2025-07-07T08:19:20.182736",
+      "region": "South Asia",
+      "flagReason": "Synthetic identity indicators found"
+    },
+    {
+      "id": 202,
+      "name": "Marco Ricci",
+      "email": "marco.ricci@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 77,
+      "flagDate": "2025-07-07T07:19:20.293847",
+      "region": "Europe",
+      "flagReason": "Unusual account creation patterns"
+    },
+    {
+      "id": 203,
+      "name": "Ava Williams",
+      "email": "ava.williams@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 93,
+      "flagDate": "2025-07-07T06:19:20.304958",
+      "region": "North America",
+      "flagReason": "Suspicious network connections detected"
+    },
+    {
+      "id": 204,
+      "name": "Jin Park",
+      "email": "jin.park@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 82,
+      "flagDate": "2025-07-07T05:19:20.415069",
+      "region": "Asia Pacific",
+      "flagReason": "High-risk behavioral patterns identified"
+    },
+    {
+      "id": 205,
+      "name": "Fatoumata Keita",
+      "email": "fatoumata.keita@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 88,
+      "flagDate": "2025-07-07T04:19:20.526170",
+      "region": "Africa",
+      "flagReason": "Rapid changes to account information"
+    },
+    {
+      "id": 206,
+      "name": "Santiago Perez",
+      "email": "santiago.perez@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 79,
+      "flagDate": "2025-07-07T03:19:20.637281",
+      "region": "Latin America",
+      "flagReason": "Use of a known fraudulent device"
+    },
+    {
+      "id": 207,
+      "name": "Nour Taha",
+      "email": "nour.taha@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 95,
+      "flagDate": "2025-07-07T02:19:20.748392",
+      "region": "Middle East",
+      "flagReason": "Connection from a high-risk IP address"
+    },
+    {
+      "id": 208,
+      "name": "Ryan Scott",
+      "email": "ryan.scott@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 81,
+      "flagDate": "2025-07-07T01:19:20.859403",
+      "region": "Australia/Oceania",
+      "flagReason": "Inconsistent personal information provided"
+    },
+    {
+      "id": 209,
+      "name": "Lars Andersen",
+      "email": "lars.andersen@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 90,
+      "flagDate": "2025-07-07T00:19:20.960514",
+      "region": "Europe",
+      "flagReason": "Velocity attacks on payment methods"
+    },
+    {
+      "id": 210,
+      "name": "Vihaan Reddy",
+      "email": "vihaan.reddy@email.com",
+      "avatar": "https://www.pngkey.com/png/full/349-3499617_person-placeholder-person-placeholder.png",
+      "riskScore": 85,
+      "flagDate": "2025-07-06T09:19:20.071625",
+      "region": "South Asia",
+      "flagReason": "Account takeover attempt suspected"
+    }
+]

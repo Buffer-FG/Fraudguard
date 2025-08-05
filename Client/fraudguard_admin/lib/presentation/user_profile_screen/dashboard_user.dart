@@ -9,11 +9,13 @@ import './widgets/risk_factors_tab.dart';
 import './widgets/timeline_tab.dart';
 import './widgets/user_header_card.dart';
 
-class UserProfileScreen extends StatefulWidget {
-  const UserProfileScreen({Key? key}) : super(key: key);
+final TextEditingController _flagReasonController = TextEditingController();
+
+class DashUserProfileScreen extends StatefulWidget {
+  const DashUserProfileScreen({Key? key}) : super(key: key);
 
   @override
-  State<UserProfileScreen> createState() => _UserProfileScreenState();
+  State<DashUserProfileScreen> createState() => _DashUserProfileScreenState();
 }
 
 // class UserProfileScreen extends StatefulWidget {
@@ -30,7 +32,7 @@ class UserProfileScreen extends StatefulWidget {
 //   State<UserProfileScreen> createState() => _UserProfileScreenState();
 // }
 
-class _UserProfileScreenState extends State<UserProfileScreen>
+class _DashUserProfileScreenState extends State<DashUserProfileScreen>
     with TickerProviderStateMixin {
   late TabController _tabController;
   bool _isLoading = true;
@@ -235,12 +237,8 @@ class _UserProfileScreenState extends State<UserProfileScreen>
           "phone": "+1 (555) 123-4567",
           "status": "Flagged",
           "accountId": "ACC_${args['id']}98765",
-          // "flaggedDate": args['flagDate']?.toIso8601String() ??
-          //     DateTime.now().toIso8601String(),
-
-          "flaggedDate":
-              args['flagDate'] as String? ?? // Use the string directly
-                  DateTime.now().toIso8601String(),
+          "flaggedDate": args['flagDate']?.toIso8601String() ??
+              DateTime.now().toIso8601String(),
           "accountType": "Premium Checking",
           "accountNumber": "****1234",
           "accountOpeningDate": "2023-03-15T10:00:00Z",
@@ -557,6 +555,58 @@ class _UserProfileScreenState extends State<UserProfileScreen>
     );
   }
 
+  // void _handleFlagForReview() {
+  //   showDialog(
+  //     context: context,
+  //     builder: (context) => AlertDialog(
+  //       title: const Text('Flag for Review'),
+  //       content: Column(
+  //         mainAxisSize: MainAxisSize.min,
+  //         crossAxisAlignment: CrossAxisAlignment.start,
+  //         children: [
+  //           Text('Flag ${_userData!['name']} for additional review?'),
+  //           SizedBox(height: 2.h),
+  //           TextField(
+  //             decoration: const InputDecoration(
+  //               labelText: 'Review Reason',
+  //               hintText: 'Enter reason for flagging...',
+  //             ),
+  //             maxLines: 3,
+  //           ),
+  //         ],
+  //       ),
+  //       actions: [
+  //         TextButton(
+  //           onPressed: () => Navigator.pop(context),
+  //           child: const Text('Cancel'),
+  //         ),
+  //         ElevatedButton(
+  //           onPressed: () {
+  //             Navigator.pop(context);
+  //             // .showToast(
+  //             //   msg: 'User flagged for review',
+  //             //   toastLength: Toast.LENGTH_SHORT,
+  //             //   gravity: ToastGravity.BOTTOM,
+  //             //   backgroundColor: AppTheme.warningLight,
+  //             //   textColor: Colors.white,
+  //             // );
+  //             ScaffoldMessenger.of(context).showSnackBar(
+  //               SnackBar(
+  //                 content: Text('User flagged for review'),
+  //                 backgroundColor: AppTheme.warningLight,
+  //               ),
+  //             );
+  //           },
+  //           style: ElevatedButton.styleFrom(
+  //             backgroundColor: AppTheme.warningLight,
+  //           ),
+  //           child: const Text('Flag User'),
+  //         ),
+  //       ],
+  //     ),
+  //   );
+  // }
+
   void _handleFlagForReview() {
     showDialog(
       context: context,
@@ -569,9 +619,11 @@ class _UserProfileScreenState extends State<UserProfileScreen>
             Text('Flag ${_userData!['name']} for additional review?'),
             SizedBox(height: 2.h),
             TextField(
+              controller: _flagReasonController,
               decoration: const InputDecoration(
                 labelText: 'Review Reason',
                 hintText: 'Enter reason for flagging...',
+                border: OutlineInputBorder(),
               ),
               maxLines: 3,
             ),
@@ -579,23 +631,28 @@ class _UserProfileScreenState extends State<UserProfileScreen>
         ),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context),
+            onPressed: () {
+              _flagReasonController.clear();
+              Navigator.pop(context);
+            },
             child: const Text('Cancel'),
           ),
           ElevatedButton(
             onPressed: () {
+              final reason = _flagReasonController.text.trim();
+              _flagReasonController.clear();
               Navigator.pop(context);
-              // .showToast(
-              //   msg: 'User flagged for review',
-              //   toastLength: Toast.LENGTH_SHORT,
-              //   gravity: ToastGravity.BOTTOM,
-              //   backgroundColor: AppTheme.warningLight,
-              //   textColor: Colors.white,
-              // );
+
+              // ✅ Show visible confirmation with reason
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                  content: Text('User flagged for review'),
+                  content: Text(
+                    reason.isNotEmpty
+                        ? 'User flagged for review.\nReason: $reason'
+                        : 'User flagged with no reason provided.',
+                  ),
                   backgroundColor: AppTheme.warningLight,
+                  duration: const Duration(seconds: 3),
                 ),
               );
             },
